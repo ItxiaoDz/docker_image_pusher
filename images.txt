@@ -5,10 +5,13 @@ xhofe/alist:latest
 nacos/nacos-server:v3.0.2
 nacos/nacos-server:latest
 
-python:3.9-slim
+--platform=linux/arm64/v8 python:3.9-slim
+--platform=linux/amd64 python:3.9-slim
 redis:6.2-alpine
 mongo:5.0-focal
-postgres:13-alpine
+
+--platform=linux/arm64/v8 postgres:13-alpine
+--platform=linux/amd64 postgres:13-alpine
 
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
