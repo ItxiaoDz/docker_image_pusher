@@ -20,5 +20,8 @@ mongo:5.0-focal
 node:22.22.0
 --platform=linux/arm64/v8 node:22.22.0
 
+node:22-bookworm
+--platform=linux/arm64/v8 node:22-bookworm
+
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
