@@ -7,6 +7,9 @@ nacos/nacos-server:latest
 
 --platform=linux/arm64/v8 python:3.9-slim
 --platform=linux/amd64 python:3.9-slim
+--platform=linux/arm64/v8 python:3.10-slim
+--platform=linux/amd64 python:3.10-slim
+python:3.10-slim
 redis:6.2-alpine
 mongo:5.0-focal
 
